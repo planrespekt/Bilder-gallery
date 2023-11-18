@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --header-background-color: rgba(52, 226, 17, 0.849);
+    --header-color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--header-background-color);
+    color: var(--header-color);
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f80606;
+    font-weight: bold;
+}
+
+main {
+    padding: 0px;
+}
+@media screen and (max-width: 300px) {
+    
+    
+    section {
+        margin: 20px 0;
+    }
+}
+
+#fog-bg {
+    background-image: url(/pictures/f1.jpg);
+}
+.fullscreen {
+    height: 100vh;
+}
+
+.parallax {
+    background: url('image.jpg') center center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+   }
+
+   :root {
+    --parallax-h2-background-color: #f1390741;
+}
+
+.parallax h2 {
+    background-color: var(--parallax-h2-background-color);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.content {
+    background-color: rgba(13, 85, 241, 0.493);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#club {
+    background-image: url(/pictures/sun1.jpg);
+}
+
+#club2 {
+    background-image: url(/pictures/sun2.jpg);
+ }
+
+#about {
+    background-image: url(/pictures/sun3.jpg)
+}
+
+@media (min-width: 500px) {
+    .card{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 700px) {
+    .card{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 500px) {
+    .media-query {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 700px) {
+    .media-query {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #41ce12;
+    color: #fff;
+    padding: 10px;
+}
