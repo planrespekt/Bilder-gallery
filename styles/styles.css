@@ -7,11 +7,13 @@ img{
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+    color: rgb(205, 68, 50);
+
 }
 
 :root {
-    --header-background-color: rgba(52, 226, 17, 0.849);
+    --header-background-color: rgba(118, 226, 17, 0.849);
     --header-color: aliceblue;
 }
 
@@ -22,6 +24,23 @@ header {
     color: var(--header-color);
     padding: 20px 0;
 }
+
+.light {
+  background-color: aliceblue;
+  color: black;
+}
+
+.dark {
+    background-color: chartreuse;
+    color: coral;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', 
+    sans-serif;
+}
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -41,6 +60,7 @@ nav a {
 main {
     padding: 0px;
 }
+
 @media screen and (max-width: 300px) {
     
     
@@ -65,7 +85,7 @@ main {
    }
 
    :root {
-    --parallax-h2-background-color: #f1390741;
+    --parallax-h2-background-color: rgba(241, 57, 7, 0.255);
 }
 
 .parallax h2 {
@@ -77,7 +97,7 @@ main {
 
 
 .content {
-    background-color: rgba(13, 85, 241, 0.493);
+    background-color: rgba(9, 194, 240, 0.726);
     padding: 20px;
     display: flex;
     justify-content: center;
